@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+	function pulaLinha() {
+
+		document.write("<br>");
+
+	}
+	function mostra(frase) {
+		pulaLinha();
+		document.write(frase);
+		pulaLinha();
+
+	}
+
+	descobrimentoBrasil = 1500;
+	anoAtual= 2020;
+	geração=28;
+	quantidadeGerações=((anoAtual-descobrimentoBrasil)/geração);
+	mostra("Desde 1500 até o ano atual, o Brasil teve "+Math.round(quantidadeGerações)+" gerações");
+
+
+
+
+</script>
